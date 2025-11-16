@@ -41,6 +41,36 @@ print("I am Python code!")
 
 The text inside the quotes is called a **string**.
 
+### Working with Strings in Python
+
+Strings, in Python and most programming languages, are how we represent text. They can be created using single quotes (`'`) or double quotes (`"`). The opening and closing quote character must match, so either `'Hello'` or `"Hello"` are valid, but `"Hello'` is not.
+
+Strings are very flexible, and there's no difference between using single or double quotes—it's mainly a matter of style, or which is more convenient for your content.
+
+#### Using Quotes Inside Strings
+
+If your string contains a quote character (for example, an apostrophe `'` in a word like "don't"), you can choose the alternative quote style to avoid errors:
+- `'I don\'t know'` or `"I don't know"` both work.
+
+Similarly, if you want to include a double quote inside the string:
+- `"He said, \"Python is fun!\""` or `'He said, "Python is fun!"'`
+
+#### Escape Characters
+
+An escape character in Python is a backslash (`\`). You use it to tell Python to treat the next character as a literal value, not as a special symbol. This lets you:
+- Put quotes inside strings opened with the same quote character, e.g., `'It\'s a sunny day'` or `"She said, \"Hi!\""`
+- Insert special characters like a new line (`\n`), a tab (`\t`), or even a backslash itself (`\\`).
+
+##### Examples
+```python
+print('It\'s easy to print apostrophes.')
+print("He said, \"Welcome to Python!\"")
+print('She replied, "That\'s awesome!"')
+print("A backslash looks like this: \\")
+```
+
+These features make it easy to handle any type of text you need in your programs.
+
 -----
 
 ## 🚀 Assignment: Hello, World\!
